@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--CSS Styles -->
+    <link rel="stylesheet" href="assets/css/styles.css" />
+
+    <!-- Favicons -->
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="assets/icons/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="assets/icons/favicon-32x32.png"
+    />
+
+    <!-- Animate CSS CDN -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <title>Edson Rios | Software Engineer</title>
+  </head>
+
+  <body>
+    <!-- Navbar -->
+    <nav>
+      <h1>Edson Rios</h1>
+      <ul class="navigation">
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#skills" class="nav-link">Skills</a></li>
+        <li><a href="#projects" class="nav-link">Projects</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+      <button class="burger-menu" id="burger-menu">
+        <ion-icon class="bars" name="menu-outline"></ion-icon>
+      </button>
+    </nav>
+    
+    <!-- Hero Section -->
+    <section class="hero" id="about">
+      <img
+        src="assets/images/HeroImage.svg"
+        alt="edson-rios"
+        loading="lazy"
+        class="hero-img"
+      />
+      <div class="bio animate__animated animate__shakeX">
+        <h2 class="bio-title">About Me</h2>
+        <p class="bio-text">
+          Hello, I'm a Software Engineer with several years of experience
+          working on front end applications such as React, Angular and Qt.
+          I love problem solving and finding solutions that give a seamless
+          experience to users of my programs.
+        </p>
+      </div>
+    </section>
+
+    <!-- More about -->
+    <section class="more-about">
+      <h2>More About Me</h2>
+      <p>
+        Technologies I'm most familiar with are front end technologies like React and Qt. I'm also 
+        comfortable with similar technologies like Angular. For programming languages, I'm most familiar
+        with C, C++, Java and Javascript, but have some experience using obscure ones like R and Haskell.
+      </p>
+      <p>
+        In terms of hobbies, I enjoy playing video games. While I like almost all genres,
+        I particularly like playing fighting games. I have a goal of improving in fighting games, 
+        and winning a large tournament in either Street Fighter or Tekken. I have been going to 
+        CEO (a large fighting game tournament) for the past several years. I faced off against a
+        really good player on stream and did rather well.
+      </p>
+      <p>
+        I'm bilingual (English and Spanish), but I'm interested in learning more languages. I would love to learn how to speak Japanese.
+        I would love to consider maybe taking classes for the language. I already learned some basic words and phrases,
+        but would like the opportunity to learn enough to sound fluent.
+      </p>
+      <p>
+        Within the last year, I purchased a guitar. I don't have the opportunity to practice as much as I would like, but
+        I can play some basic melodies on it. In hopes that I continue to play it, I even gave it a name, Marlene. This is
+        in reference to what one of my favorite characters named their guitar.
+      </p>
+    </section>
+
+    <!-- Skills section -->
+    <section class="skills" id="skills">
+      <h2 class="skill-header">My Top Skills</h2>
+
+      <div class="skills-wrapper">
+        <div class="first-set animate__animated animate__pulse">
+          <img
+            src="assets/icons/icons8-html-5.svg"
+            alt=""
+            loading="lazy"
+            class="icon icon-card"
+          />
+          <img
+            src="assets/icons/icons8-css3.svg"
+            alt=""
+            loading="lazy"
+            class="icon icon-card"
+          />
+          <img
+            src="assets/icons/icons8-javascript.svg"
+            alt=""
+            loading="lazy"
+            class="icon icon-card"
+          />
+        </div>
+
+        <div class="second-set animate__animated animate__pulse">
+          <img
+            src="assets/icons/icons8-bootstrap.svg"
+            alt=""
+            loading="lazy"
+            class="icon icon-card"
+          />
+          <img
+            src="assets/icons/icons8-react-native.svg"
+            alt=""
+            loading="lazy"
+            class="icon icon-card"
+          />
+          <img
+            src="assets/icons/icons8-git.svg"
+            alt=""
+            loading="lazy"
+            class="icon icon-card"
+          />
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section-->
+    <section class="projects" id="projects">
+      <h2 class="projects-title">Some of my Recent Projects</h2>
+      <div class="projects-container">
+        <div class="project-container project-card">
+          <img
+            src="assets/images/4CharacterArenaFPS.png"
+            alt="arena-fps"
+            loading="lazy"
+            class="project-pic"
+          />
+          <h3 class="project-title">Arena FPS</h3>
+          <p class="project-details">
+            Project where 4 characters each have different weapons that
+            have different differnet properties. Player can move around and
+            shoot. Weapons had recoil.
+          </p>
+          <a href="https://youtu.be/eqaDsho8IvQ" target="_blank" class="project-link">Check it Out</a>
+        </div>
+        <div class="project-container project-card">
+          <img
+            src="assets/images/PrintPage.png"
+            alt="print-page"
+            loading="lazy"
+            class="project-pic"
+          />
+          <h3 class="project-title">Crowdsourcing Transcription Platform</h3>
+          <p class="project-details">
+            Web application with a database store of different documents and
+            their transcriptions. The website provided an convenient means to
+            transcribe documents directly onto the websit and share such information.
+          </p>
+          <a href="https://chdr.cah.ucf.edu/print/people.html" target="_blank" class="project-link">Check it Out</a>
+        </div>
+        <div class="project-container project-card">
+          <img
+            src="assets/images/YugiohVR.png"
+            alt="yugioh-vr"
+            loading="lazy"
+            class="project-pic"
+          />
+          <h3 class="project-title">YugiohVR</h3>
+          <p class="project-details">
+            Current project friend and I are working on that simulates the
+            Yugioh experience within VR. Tracks the card game's in depth
+            mechanics and includes features like text to speech.
+          </p>
+          <a href="https://www.youtube.com/watch?v=HyaanDmepkI&t=1s" target="_blank" class="project-link">Check it Out</a>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- Contact section -->
+    <!-- Must set up formspree account/url for free -->
+    <!-- Check README -->
+    <section class="contact" id="contact">
+      <h2>Get In Touch With Me</h2>
+      <div class="contact-form-container">
+        <div class="contact-form">
+          <form action="https://formspree.io/f/xovaqlpp" method="POST">
+            <div class="form-control">
+              <label for="name">Name</label>
+              <input
+                type="text"
+                id="name"
+                name="sender-name"
+                placeholder="Enter Your Name"
+                class="input-field"
+                required
+              />
+            </div>
+            <div class="form-control">
+              <label for="email">Email</label>
+              <input
+                type="email"
+                id="email"
+                name="sender-email"
+                placeholder="Enter Your Email"
+                class="input-field"
+                required
+              />
+            </div>
+            <div class="form-control">
+              <label for="message">Message</label>
+              <textarea
+                id="message"
+                cols="60"
+                rows="10"
+                placeholder="Enter Your Message"
+                name="message"
+                class="input-field"
+                required
+              ></textarea>
+            </div>
+            <input
+              type="submit"
+              value="Submit"
+              id="submit-btn"
+              class="submit-btn"
+            />
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- Social accounts - Fixed to the right -->
+    <div class="socials">
+      <a href="https://www.linkedin.com/in/edson-rios-7013051a2/" target="_blank">
+        <img 
+          src="assets/icons/icons8-linkedin-circled.gif" 
+          alt="Linkedin"
+          loading="lazy"
+          class="socicon"
+        />
+      </a>
+      <a href="https://github.com/manatwar55" target="_blank">
+        <img 
+          src="assets/icons/icons8-github.gif" 
+          alt="Github"
+          loading="lazy"
+          class="socicon"
+        />
+      </a>
+    </div>
+    <!-- Footer section -->
+    <footer>
+      <p class="copy">&copy; Copyright 2024</p>
+      <p class="copy">
+        Built by 
+        <a href="https://www.linkedin.com/in/edson-rios-7013051a2/" target="_blank">Edson Rios</a> 
+        with template/start provided by Kolade Chris (Ksound)
+      </p>
+    </footer>
+
+    <!-- Scroll to Top Button -->
+     <i class="scroll-up" id="scroll-up">
+      <img 
+        src="assets/icons/icons8-upward-arrow.gif"
+        class="socicon up-arrow"
+        alt="scroll-up"
+      />
+     </i>
+
+    <!-- Website scripts -->
+    <script src="assets/js/app.js"></script>
+
+    <!-- Ion icons scripts -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
